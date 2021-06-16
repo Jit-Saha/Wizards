@@ -28,11 +28,11 @@ hr{
 	height: auto;
 	padding: 25px;
 }
-.b1 img{
+/*.b1 img{
 	float: left;
 	padding-right: 10px;
 }
-/*.b2 h1{
+.b2 h1{
 	font-size: 45px;
 	font-family: Consolas;
 	background: -webkit-linear-gradient(270deg,red, yellow);
