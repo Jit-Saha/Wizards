@@ -28,27 +28,7 @@ hr{
 	height: auto;
 	padding: 25px;
 }
-/*.b1 img{
-	float: left;
-	padding-right: 10px;
-}
-.b2 h1{
-	font-size: 45px;
-	font-family: Consolas;
-	background: -webkit-linear-gradient(270deg,red, yellow);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-.b2 h2{
-	font-size: 40px;
-	font-family: Consolas;
-	background-color: rgba(10,10,10,0.3);
-	color: orange;
-	text-align: center;
-}
-.b2 img{ 
-	float: right;
-}*/
+
 .b3 h1{
 	font-size: 50px;
 	font-family: sans-serif;
@@ -73,3 +53,41 @@ hr{
 audio{
 	display:none;
 }
+
+div.boxb2{
+	padding-left: 3%;
+	padding-right: 3%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	text-align: center;
+	align-content: center;
+}
+#boxbb1,#boxbb3{
+	width: 20%;
+}
+#boxbb3 img{
+	position:relative;
+	float:right;
+}
+#boxbb1 img,#boxbb3 img{
+	width: 100%;
+	height: 70%;
+}
+#boxbb2{
+	background-color: rgba(133, 117, 96, 0.582);
+	border: dotted 4px rgb(236, 8, 8);
+	font-family: 'Charm', cursive;
+	font-size: 30px;
+	color: rgb(216, 25, 19);
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	height: 70%;
+}
+#boxbb2 h1,h2{
+	background: -webkit-linear-gradient(rgb(243, 9, 9), rgb(250, 226, 7));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
